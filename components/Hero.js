@@ -1,9 +1,10 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect, useState } from "react";
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { useRouter } from "next/router";
 
 const Hero = ({
   listUser = [
@@ -25,7 +26,21 @@ const Hero = ({
   ],
 }) => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  
+  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+  const handleButtonClick = () => {
+    setIsLoading(true);
+    router.push("/registration");
+  };
 
+  useEffect(() => {
+    return () => {
+      // Cleanup function
+      setIsLoading(false);
+    };
+  }, []);
+  
   return (
     <div
       className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
@@ -42,7 +57,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 Loka Academy menyediakan berbagai macam kelas dan program pelatihan bootcamp untuk Product Manager, Developer, Designer etc
               </p>
-              <ButtonPrimary>Mulai dari sini</ButtonPrimary>
+              <ButtonPrimary onClick={handleButtonClick} disabled={isLoading}>{isLoading ? "Loading..." : "Mulai dari sini"}</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

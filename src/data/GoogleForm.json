@@ -1,0 +1,53 @@
+{
+  "fvv": 1,
+  "pageHistory": 0,
+  "fbzx": "-3011415804944685763",
+  "action": "e/1FAIpQLSf-vzoSLuIebbuVndnHeQlBNgCRlKA9hqqhkR_O-o4ePaFj8g",
+  "title": "Digital Talent Bootcamp",
+  "description": "Form registrasi Digital Talent Bootcamp Loka Academy",
+  "fields": [
+    {
+      "label": "Nama",
+      "description": null,
+      "type": "SHORT_ANSWER",
+      "id": "70404056",
+      "required": true
+    },
+    {
+      "label": "Alamat",
+      "description": null,
+      "type": "LONG_ANSWER",
+      "id": "1086035263",
+      "required": true
+    },
+    {
+      "label": "No Kontak",
+      "description": null,
+      "type": "SHORT_ANSWER",
+      "id": "1119720700",
+      "required": true
+    },
+    {
+      "label": "Kampus / Jurusan",
+      "description": null,
+      "type": "SHORT_ANSWER",
+      "id": "260138591",
+      "required": true
+    },
+    {
+      "label": "Minat",
+      "description": null,
+      "type": "RADIO",
+      "id": "521639012",
+      "options": [],
+      "required": true
+    }
+  ],
+  "fieldsOrder": {
+    "70404056": 0,
+    "260138591": 3,
+    "521639012": 4,
+    "1086035263": 1,
+    "1119720700": 2
+  }
+}
