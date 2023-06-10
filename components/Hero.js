@@ -60,7 +60,16 @@ const Hero = ({
               <ButtonPrimary onClick={handleButtonClick} disabled={isLoading}>{isLoading ? "Loading..." : "Mulai dari sini"}</ButtonPrimary>
             </div>
             <div className="flex w-full">
-              <LokaHome/>
+              <motion.div className="h-full w-full" variants={scrollAnimation}>
+                <Image
+                  src="/assets/backend.png"
+                  alt="Loka Academy"
+                  quality={100}
+                  width={612}
+                  height={612}
+                  layout="responsive"
+                />
+              </motion.div>
             </div>
           </motion.div>
       </ScrollAnimationWrapper>
