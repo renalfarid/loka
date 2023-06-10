@@ -61,9 +61,21 @@ const Bootcamp = ({
       className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
       id="bootcamp"
     >
-      <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            Digital Talent Bootcamp
-          </h3>
+      <div>
+        <h3 className="text-2xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          Digital Talent Bootcamp
+        </h3>
+        <p className="mt-5">Merupakan Program Training IT yang difokuskan pada pengembangan produk aplikasi digital</p>
+      </div>
+      <div>
+       <ul className="text-black-500 self-start list-inside ml-8 mt-5 mb-4">
+        <b>
+        <li className="relative circle-check custom-list">Intensif Class</li>
+        <li className="relative circle-check custom-list">Project Based</li>
+        <li className="relative circle-check custom-list">Fokus Praktik</li>
+        </b>
+      </ul>
+      </div>
       <div className="relative w-full flex">
         <ScrollAnimationWrapper
           className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10" 

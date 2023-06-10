@@ -132,7 +132,7 @@ const Header = () => {
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <button
-                onClick={() => router.back()}
+                onClick={() => router.push('/')}
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                   (activeLink === "about"
@@ -191,16 +191,16 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="bootcamp"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("bootcamp");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "about"
+                (activeLink === "bootcamp"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
