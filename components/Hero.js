@@ -5,6 +5,7 @@ import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { useRouter } from "next/router";
+import LokaHome from "./misc/LokaAnimation";
 
 const Hero = ({
   listUser = [
@@ -59,16 +60,7 @@ const Hero = ({
               <ButtonPrimary onClick={handleButtonClick} disabled={isLoading}>{isLoading ? "Loading..." : "Mulai dari sini"}</ButtonPrimary>
             </div>
             <div className="flex w-full">
-              <motion.div className="h-full w-full" variants={scrollAnimation}>
-                <Image
-                  src="/assets/Illustration1.png"
-                  alt="Loka Academy"
-                  quality={100}
-                  width={612}
-                  height={383}
-                  layout="responsive"
-                />
-              </motion.div>
+              <LokaHome/>
             </div>
           </motion.div>
       </ScrollAnimationWrapper>

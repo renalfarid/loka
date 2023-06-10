@@ -68,7 +68,7 @@ const Bootcamp = ({
         <p className="mt-5">Merupakan Program Training IT yang difokuskan pada pengembangan produk aplikasi digital</p>
       </div>
       <div>
-       <ul className="text-black-500 self-start list-inside ml-8 mt-5 mb-4">
+       <ul className="text-black-500 self-start list-inside ml-8 mt-5 mb-4 orange">
         <li className="relative circle-check custom-list">Intensif Class</li>
         <li className="relative circle-check custom-list">Project Based</li>
         <li className="relative circle-check custom-list">Fokus Praktik</li>
