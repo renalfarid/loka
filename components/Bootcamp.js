@@ -69,11 +69,9 @@ const Bootcamp = ({
       </div>
       <div>
        <ul className="text-black-500 self-start list-inside ml-8 mt-5 mb-4">
-        <b>
         <li className="relative circle-check custom-list">Intensif Class</li>
         <li className="relative circle-check custom-list">Project Based</li>
         <li className="relative circle-check custom-list">Fokus Praktik</li>
-        </b>
       </ul>
       </div>
       <div className="relative w-full flex">
