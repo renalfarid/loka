@@ -49,7 +49,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              Home
+             <a className={router.pathname == "/" ? "active" : ""}>Home</a>
             </Link>
             <LinkScroll
               activeClass="active"
@@ -135,7 +135,7 @@ const Header = () => {
                 onClick={() => router.push('/')}
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                  (activeLink === "about"
+                  (activeLink === "home"
                     ? "  border-orange-500 text-orange-500"
                     : " border-transparent")
                 }
