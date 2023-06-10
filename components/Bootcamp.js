@@ -22,7 +22,7 @@ const Bootcamp = ({
     {
       id: 2,
       name: "Backend",
-      description: "Kelas yang sesuai untu memulai karir sebagai backend engineer dengan materi dasar programming, arsitektur aplikasi, database management etc",
+      description: "Kelas yang sesuai untuk memulai karir sebagai backend engineer dengan materi dasar algoritma, programming, arsitektur aplikasi, database management etc",
       image: "/assets/backend-2.jpg",
     },
     {
