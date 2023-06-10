@@ -62,11 +62,11 @@ const Hero = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/backend.png"
+                  src="/assets/homebanner-1.png"
                   alt="Loka Academy"
                   quality={100}
                   width={612}
-                  height={612}
+                  height={295}
                   layout="responsive"
                 />
               </motion.div>
