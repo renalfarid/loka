@@ -5,7 +5,6 @@ import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { useRouter } from "next/router";
-import LokaHome from "./misc/LokaAnimation";
 
 const Hero = ({
   listUser = [
@@ -62,11 +61,11 @@ const Hero = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/homebanner-1.png"
+                  src="/assets/Illustration1.png"
                   alt="Loka Academy"
                   quality={100}
                   width={612}
-                  height={295}
+                  height={383}
                   layout="responsive"
                 />
               </motion.div>
