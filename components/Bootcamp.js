@@ -34,7 +34,7 @@ const Bootcamp = ({
     {
         id: 4,
         name: "Soft Skill",
-        description: "Kelas yang akan membantu meningkatkan skill non teknis sehingga dapat berkolaborasi secara team, siap bekerjasama dan memiliki leadership yang baik",
+        description: "Kelas yang akan membantu meningkatkan skill non teknis sehingga dapat berkolaborasi secara team",
         image: "/assets/softskill.png",
     },
   ],
