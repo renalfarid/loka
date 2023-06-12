@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'Loka Academy Indonesia',
+  title: 'Loka Academy Indonesia - Digital Talent Bootcamp & Pelatihan Bersertifikat',
   siteName: 'LokaAcademy',
   description:
     'Loka Academy menyediakan berbagai macam kelas dan program pelatihan bootcamp untuk Product Manager, Developer, Designer etc',
