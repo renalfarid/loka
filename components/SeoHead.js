@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'Loka Academy Indonesia',
   siteName: 'LokaAcademy',
   description:
-    'Loka Academy',
+    'Loka Academy menyediakan berbagai macam kelas dan program pelatihan bootcamp untuk Product Manager, Developer, Designer etc',
   // change base url of your web (without '/' at the end)
   url: 'https://www.lokaacademy.com',
   type: 'website',
