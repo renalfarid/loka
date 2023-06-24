@@ -8,7 +8,8 @@ const features = [
   "Digital Talent Bootcamp",
   "Loka Go",
   "Lokapreneur",
-  "Loka Talent Hub"
+  "Loka Talent Hub",
+  "Loka Organizer"
 ]
 
 const Feature = () => {
